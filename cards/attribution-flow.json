@@ -1,0 +1,17 @@
+{
+  "id": "attribution-flow",
+  "eyebrow": "GitHub build",
+  "title": "Attribution model flow",
+  "description": "First-touch-to-booking attribution logic documented as a diagram. Pairs with the Golden Thread case study.",
+  "tags": [
+    "Mermaid",
+    "Attribution"
+  ],
+  "actions": [
+    {
+      "label": "View Flow",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

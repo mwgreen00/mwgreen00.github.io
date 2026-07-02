@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -m pip install --quiet fonttools brotli)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(python3 -c \"import fontTools, brotli; print\\('ready'\\)\")",
+      "Bash(curl -sL -o sg.ttf \"https://raw.githubusercontent.com/google/fonts/main/ofl/spacegrotesk/SpaceGrotesk%5Bwght%5D.ttf\")",
+      "Bash(python3 -c \"from fontTools.ttLib import TTFont; f=TTFont\\('sg.ttf'\\); print\\('axes', [\\(a.axisTag,a.minValue,a.maxValue\\) for a in f['fvar'].axes] if 'fvar' in f else 'static'\\); print\\('has G', 'G' in f.getBestCmap\\(\\).values\\(\\) or ord\\('G'\\) in f.getBestCmap\\(\\)\\)\")"
+    ]
+  }
+}

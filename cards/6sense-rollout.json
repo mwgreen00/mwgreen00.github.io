@@ -1,0 +1,26 @@
+{
+  "id": "6sense-rollout",
+  "eyebrow": "Case study",
+  "flag": "Flagship",
+  "title": "6sense rollout and Salesforce integration across five regions",
+  "meta": "US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026",
+  "image": "assets/6sense-prospecting.png",
+  "description": "Led the 6sense rollout with Salesforce integration and SSO across five sales regions during a post-acquisition integration. Reached 175 qualified accounts in core and 225 in non-core markets by Q4 2025.",
+  "tags": [
+    "6sense",
+    "Salesforce",
+    "SSO"
+  ],
+  "supports": "Also supports: Marketing Operations, Sales Development",
+  "actions": [
+    {
+      "label": "Read case study",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View dashboard",
+      "href": "#"
+    }
+  ]
+}

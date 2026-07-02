@@ -1,0 +1,21 @@
+{
+  "id": "pipeline-dashboard",
+  "eyebrow": "GitHub build",
+  "title": "Pipeline or forecast dashboard",
+  "description": "Clean dashboard over sample data. Doubles as the sanitized screenshot for the case studies.",
+  "tags": [
+    "Python",
+    "HTML"
+  ],
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "Live Demo",
+      "href": "#"
+    }
+  ]
+}

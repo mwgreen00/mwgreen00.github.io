@@ -1,0 +1,16 @@
+{
+  "id": "lead-scoring",
+  "eyebrow": "GitHub build",
+  "title": "Lead or account scoring model",
+  "description": "Scores sample accounts on fit and intent signals and outputs a ranked list.",
+  "tags": [
+    "Python"
+  ],
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

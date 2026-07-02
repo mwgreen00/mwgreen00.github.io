@@ -1,0 +1,16 @@
+{
+  "id": "outreach-analyzer",
+  "eyebrow": "GitHub build",
+  "title": "Sequence or outreach analyzer",
+  "description": "Reports meeting and reply rates by segment from sample activity data.",
+  "tags": [
+    "Python"
+  ],
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "nrr-forecasting",
+  "eyebrow": "Case study",
+  "title": "NRR forecasting and renewal-risk monitoring",
+  "meta": "US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026",
+  "description": "Built ARR, MRR, and net revenue retention forecasting models plus a Tableau Cloud renewal-risk dashboard that surfaced at-risk recurring revenue early and improved forecast accuracy.",
+  "tags": [
+    "Tableau Cloud",
+    "ARR / MRR / NRR"
+  ],
+  "supports": "Also supports: Sales Operations (forecasting, dashboards)",
+  "actions": [
+    {
+      "label": "Read case study",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View dashboard",
+      "href": "#"
+    }
+  ]
+}

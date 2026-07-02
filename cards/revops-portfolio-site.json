@@ -1,0 +1,14 @@
+{
+  "id": "revops-portfolio-site",
+  "eyebrow": "Project",
+  "title": "This site: an audience-targeted RevOps portfolio",
+  "meta": "Town Lake Systems Group | Principal | 2026",
+  "description": "A static portfolio on GitHub Pages where each project is a JSON card, and an audience manifest plus a ?audience= URL swap the card set per viewer. Static-first, so it works with JavaScript off, with a Python generator that keeps the baseline in sync.",
+  "tags": ["HTML", "JavaScript", "GitHub Pages", "Claude Code"],
+  "proves": "Proves: information architecture, ABM thinking, AI-assisted build.",
+  "actions": [
+    { "label": "Read case study", "href": "assets/case-studies/revops-portfolio-site.md", "primary": true },
+    { "label": "View Repo", "href": "#" },
+    { "label": "Live Demo", "href": "#" }
+  ]
+}

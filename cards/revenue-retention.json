@@ -1,0 +1,17 @@
+{
+  "id": "revenue-retention",
+  "eyebrow": "Dashboard",
+  "flag": "Pillar Project",
+  "title": "Revenue Retention Dashboard",
+  "meta": "US Signal | Revenue Operations | Setptmber 2024 through February 2026",
+  "image": "assets/retention-dashboard.png",
+  "imageAlt": "Revenue Retention Dashboard",
+  "description": "Dashboard designed to show when revenue is coming out of term, so we can plan customer engagement and retention activities to keep revenue in term. This also allowed a chance to upsell additional services or migrate customer to new services..",
+  "tags": ["Dashboard", "Revenue Retention"],
+  "supports": "Also supports: Marketing Operations",
+  "proves": "Proves: capability",
+  "actions": [
+    { "label": "Read case study", "href": "#", "primary": true },
+    { "label": "View dashboard", "href": "#" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bdr-build",
+  "eyebrow": "Case study",
+  "title": "BDR function build and commission design",
+  "meta": "OneNeck IT Solutions | Director, Marketing Operations and Business Development | Dec 2017 to Sep 2022",
+  "description": "Built the BDR function from scratch, cut program cost 56%, and increased qualified appointments 98% through segmentation and outreach automation. Designed the commission plan and moved payout calculation out of spreadsheets into a system built for accuracy and scale.",
+  "tags": [
+    "Segmentation",
+    "Outreach automation",
+    "Comp design"
+  ],
+  "supports": "Also supports: Sales Operations (commission design)",
+  "actions": [
+    {
+      "label": "Read case study",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

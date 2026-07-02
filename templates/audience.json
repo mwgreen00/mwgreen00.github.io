@@ -1,0 +1,17 @@
+{
+  "name": "audience-name",
+  "headline": "Optional: replaces the main H1 headline. Delete this line to keep the default.",
+  "positioning": "Optional: replaces the sidebar positioning line. Delete this line to keep the default.",
+  "featured": "card-id-for-the-top-tile",
+  "sections": {
+    "sales-ops": ["card-id"],
+    "marketing-ops": ["card-id", "card-id"],
+    "sales-dev": ["card-id"],
+    "retention": ["card-id"],
+    "ai-automation": ["card-id"],
+    "sys-process": ["card-id"],
+    "sys-custom": ["card-id"],
+    "sys-research": ["card-id"],
+    "sys-other": ["card-id"]
+  }
+}

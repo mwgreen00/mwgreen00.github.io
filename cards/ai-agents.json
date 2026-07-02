@@ -1,0 +1,23 @@
+{
+  "id": "ai-agents",
+  "eyebrow": "Case study",
+  "title": "AI agents and automation for RevOps workflows",
+  "meta": "Town Lake Systems Group | Principal | Apr 2026 to present",
+  "description": "Building local AI agents in Python and Salesforce Agentforce to automate enrichment, reporting, and account prioritization for revenue teams, cutting manual reporting and speeding decision cycles.",
+  "tags": [
+    "Python",
+    "Agentforce",
+    "Ollama"
+  ],
+  "actions": [
+    {
+      "label": "Read case study",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View GitHub",
+      "href": "#"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "crm-auditor",
+  "eyebrow": "GitHub build",
+  "title": "CRM data-quality auditor",
+  "description": "Scans a sample export and flags missing fields, duplicates, and bad values with a summary report.",
+  "tags": [
+    "Python"
+  ],
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pipeline-forecasting-tool",
+  "eyebrow": "GitHub build",
+  "title": "Pipeline forecasting tool",
+  "description": "Sample opportunity data to a weighted best, likely, and worst forecast with coverage against quota.",
+  "tags": [
+    "Python"
+  ],
+  "proves": "Proves: forecasting.",
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

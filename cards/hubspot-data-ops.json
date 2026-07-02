@@ -1,0 +1,25 @@
+{
+  "id": "hubspot-data-ops",
+  "eyebrow": "Case study",
+  "title": "HubSpot data operations and account classification",
+  "meta": "Town Lake Systems Group | Principal | 2026 to present",
+  "description": "HubSpot company deduplication and account-classification engagement for a data center and colocation client. Built fuzzy-matching pipelines, survivor-selection logic, and tiered segmentation with confidence scoring across thousands of records.",
+  "image": "assets/hubspot.png",
+  "tags": [
+    "HubSpot",
+    "Python",
+    "Fuzzy matching"
+  ],
+  "supports": "Also supports: Sales Operations (clean data for routing and reporting)",
+  "actions": [
+    {
+      "label": "Read case study",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View GitHub",
+      "href": "#"
+    }
+  ]
+}

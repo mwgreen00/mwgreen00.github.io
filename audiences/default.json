@@ -1,0 +1,44 @@
+{
+  "name": "default",
+  "positioning": "Director, Revenue Operations | Forecasting, Pipeline, and CRM Systems | HubSpot + Salesforce + 6sense | AI-driven GTM automation",
+  "featured": "6sense-rollout",
+  "sections": {
+    "sales-ops": [
+      "6sense-rollout",
+      "revenue-retention"
+    ],
+    "marketing-ops": [
+      "golden-thread",
+      "revenue-retention"
+    ],
+    "sales-dev": [
+      "bdr-build"
+    ],
+    "retention": [
+      "nrr-forecasting"
+    ],
+    "ai-automation": [
+      "ai-agents"
+    ],
+    "sys-process": [
+      "attribution-flow",
+      "dedup-flow"
+    ],
+    "sys-custom": [
+      "revops-portfolio-site",
+      "commission-calculator",
+      "pipeline-forecasting-tool",
+      "pipeline-dashboard"
+    ],
+    "sys-research": [
+      "revops-assistant",
+      "enrichment-agent"
+    ],
+    "sys-other": [
+      "domain-resolver",
+      "crm-auditor",
+      "lead-scoring",
+      "outreach-analyzer"
+    ]
+  }
+}

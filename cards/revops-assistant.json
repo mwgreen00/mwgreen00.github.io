@@ -1,0 +1,24 @@
+{
+  "id": "revops-assistant",
+  "eyebrow": "GitHub build",
+  "flag": "Flagship candidate",
+  "title": "RevOps assistant prototype (Agentforce or Ollama)",
+  "description": "Local agent answering questions over a sample pipeline: which deals are stuck, which renewals are at risk next quarter.",
+  "tags": [
+    "Ollama",
+    "Agentforce",
+    "MCP"
+  ],
+  "proves": "Proves: agentic AI as a layer over RevOps.",
+  "actions": [
+    {
+      "label": "Read Paper",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View Gist",
+      "href": "#"
+    }
+  ]
+}

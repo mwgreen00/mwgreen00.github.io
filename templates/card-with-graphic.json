@@ -1,0 +1,17 @@
+{
+  "id": "replace-with-unique-id",
+  "eyebrow": "Case study",
+  "flag": "Flagship",
+  "title": "Project title in sentence case",
+  "meta": "Client | Role | Dates",
+  "image": "assets/replace-with-your-graphic.png",
+  "imageAlt": "Short plain description of the graphic",
+  "description": "Two or three sentences: what you built, the tools, and the measurable result. Keep numbers matching your resume and LinkedIn.",
+  "tags": ["Tool", "Tool", "Skill"],
+  "supports": "Also supports: Other pillar",
+  "proves": "Proves: capability",
+  "actions": [
+    { "label": "Read case study", "href": "#", "primary": true },
+    { "label": "View GitHub", "href": "#" }
+  ]
+}

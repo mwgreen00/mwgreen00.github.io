@@ -1,0 +1,17 @@
+{
+  "id": "commission-calculator",
+  "eyebrow": "GitHub build",
+  "title": "Commission calculator",
+  "description": "Reads sample deals and a plan definition, outputs payouts. Rebuilds the BDR \"out of spreadsheets\" line.",
+  "tags": [
+    "Python"
+  ],
+  "proves": "Proves: comp design.",
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "enrichment-agent",
+  "eyebrow": "GitHub build",
+  "title": "AI enrichment agent (Salesforce or HubSpot)",
+  "description": "Python agent that enriches missing account fields (industry, size, segment) via API or local model and writes back.",
+  "tags": [
+    "Python",
+    "API"
+  ],
+  "proves": "Proves: AI and automation, CRM integration.",
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}

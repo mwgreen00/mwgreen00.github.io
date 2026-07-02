@@ -1,0 +1,24 @@
+{
+  "id": "golden-thread",
+  "eyebrow": "Case study",
+  "title": "Golden Thread full-funnel attribution framework",
+  "meta": "OneNeck IT Solutions | Director, Revenue Operations | Sep 2022 to Sep 2024",
+  "description": "Attribution model linking individual selling activity to closed-won revenue, giving leadership full-funnel visibility from first touch to booking. Built on Microsoft Dynamics and HubSpot with Power BI reporting.",
+  "tags": [
+    "Microsoft Dynamics",
+    "HubSpot",
+    "Power BI"
+  ],
+  "supports": "Also supports: Sales Operations (exec dashboards)",
+  "actions": [
+    {
+      "label": "Read case study",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View diagram",
+      "href": "#"
+    }
+  ]
+}

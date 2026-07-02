@@ -1,0 +1,22 @@
+{
+  "id": "dedup-flow",
+  "eyebrow": "GitHub build",
+  "title": "Company dedup and survivor-selection flow",
+  "description": "Fuzzy-matching and survivor logic as a documented pipeline. The public version of the DartPoints work on safe synthetic data.",
+  "tags": [
+    "Python",
+    "Fuzzy matching"
+  ],
+  "proves": "Proves: data governance.",
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    },
+    {
+      "label": "View Flow",
+      "href": "#"
+    }
+  ]
+}

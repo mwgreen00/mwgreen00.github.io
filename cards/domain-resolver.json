@@ -1,0 +1,16 @@
+{
+  "id": "domain-resolver",
+  "eyebrow": "GitHub build",
+  "title": "Domain-to-company resolver",
+  "description": "Maps email domains or URLs to normalized company names.",
+  "tags": [
+    "Python"
+  ],
+  "actions": [
+    {
+      "label": "View Repo",
+      "href": "#",
+      "primary": true
+    }
+  ]
+}
