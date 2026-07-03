@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,420 +18,372 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<!--
-  <body class="annotate">
-
-
-  <div class="topbar">
-    <span class="brand">Wireframe / RevOps Portfolio</span>
-    <span class="note">Sections start closed. Opening one closes the others.</span>
-    <button class="toggle" id="allToggle">Close all</button>
-    <button class="toggle" id="annToggle" aria-pressed="true">Annotations: On</button>
-  </div>
--->
-  <div class="layout">
-
-    <!-- ================= SIDEBAR ================= -->
-    <aside class="sidebar region">
-      <span class="tag">Left sidebar (sticky)</span>
-
-      <div class="identity region">
-        <span class="tag">Identity block (banner + photo)</span>
-        <div class="idcard">
-          <img class="banner" src="assets/austin_skyline.jpg" alt="Austin skyline">
-          <img class="avatar" src="assets/profile.jpg" alt="Michael Green">
-          <div class="id-text">
-            <div class="name">Michael Green</div>
-            <div class="role">Sr. Director, Revenue Operations</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="positioning region">
-        <span class="tag">Positioning tag</span>
-        <div class="positioning-body"><div class="positioning-text">Director, Revenue Operations | Forecasting, Pipeline, and CRM Systems | HubSpot + Salesforce + 6sense | AI-driven GTM automation</div></div>
-      </div>
-
-      <div class="contact region">
-        <span class="tag">Contact actions</span>
-        <!-- <a href="#"><span class="dot"></span>Email</a> -->
-        <a href="https://www.linkedin.com/in/mwgreen/" target="_blank"><span class="dot"></span>LinkedIn</a>
-        <a href="https://github.com/mwgreen00" target="_blank"><span class="dot"></span>GitHub</a>
-        <!-- <a href="#" target="_blank"><span class="dot"></span>Download Resume</a> -->
-      </div>
-
-      <div class="metrics region">
-        <span class="tag">Proof-point metrics (confirm numbers)</span>
-        <div class="metric"><div class="num">98%</div><div class="cap">More qualified appointments</div></div>
-        <div class="metric"><div class="num">56%</div><div class="cap">BDR program cost cut</div></div>
-        <div class="metric"><div class="num">175 / 225</div><div class="cap">Accounts, core / non-core, Q4 2025</div></div>
-        <div class="metric"><div class="num">5</div><div class="cap">Regions, 6sense rollout</div></div>
-      </div>
-
-      <div class="navblock region">
-        <span class="tag">Anchor nav (highlights the open section)</span>
-        <div class="navtitle">Jump to</div>
-        <nav class="anchornav" aria-label="Section navigation">
-          <div class="grp">Revenue Engine</div>
-          <a href="#sales-ops" data-spy="sales-ops">Sales Operations</a>
-          <a href="#marketing-ops" data-spy="marketing-ops">Marketing Operations</a>
-          <a href="#sales-dev" data-spy="sales-dev">Sales Development</a>
-          <a href="#retention" data-spy="retention">Revenue Retention</a>
-          <div class="grp">Cross-cutting</div>
-          <a href="#ai-automation" data-spy="ai-automation">AI and Automation</a>
-          <div class="grp">Code</div>
-          <a href="#systems" data-spy="systems">Systems Labs</a>
-          <div class="sub-links">
-            <a href="#sys-process" data-spy="sys-process">Process Flows</a>
-            <a href="#sys-custom" data-spy="sys-custom">Custom Applications</a>
-            <a href="#sys-research" data-spy="sys-research">Research</a>
-            <a href="#sys-other" data-spy="sys-other">Other</a>
-          </div>
-        </nav>
-      </div>
-    </aside>
-
-    <!-- ================= MAIN ================= -->
-    <main class="main">
-      <noscript>
-        <div style="margin:12px 0; padding:12px 14px; border:1px solid var(--line); border-radius:6px; background:var(--fill);">
+<div class="layout"><!-- ================= SIDEBAR ================= -->
+<aside class="sidebar region"><span class="tag">Left sidebar (sticky)</span>
+<div class="identity region"><span class="tag">Identity block (banner + photo)</span>
+<div class="idcard"><img class="banner" src="assets/austin_skyline.jpg" alt="Austin skyline"> <img class="avatar" src="assets/profile.jpg" alt="Michael Green">
+<div class="id-text">
+<div class="name">Michael Green</div>
+<div class="role">Sr. Director, Revenue Operations</div>
+</div>
+</div>
+</div>
+<div class="positioning region"><span class="tag">Positioning tag</span>
+<div class="positioning-body">
+<div class="positioning-text">Director, Revenue Operations | Forecasting, Pipeline, and CRM Systems | HubSpot + Salesforce + 6sense | AI-driven GTM automation</div>
+</div>
+</div>
+<div class="contact region"><span class="tag">Contact actions</span> <a href="https://www.linkedin.com/in/mwgreen/" target="_blank" rel="noopener"><span class="dot"></span>LinkedIn</a> <a href="https://github.com/mwgreen00" target="_blank" rel="noopener"><span class="dot"></span>GitHub</a></div>
+<div class="metrics region"><span class="tag">Proof-point metrics (confirm numbers)</span>
+<div class="metric">
+<div class="num">98%</div>
+<div class="cap">More qualified appointments</div>
+</div>
+<div class="metric">
+<div class="num">56%</div>
+<div class="cap">BDR program cost cut</div>
+</div>
+<div class="metric">
+<div class="num">175 / 225</div>
+<div class="cap">Accounts, core / non-core, Q4 2025</div>
+</div>
+<div class="metric">
+<div class="num">5</div>
+<div class="cap">Regions, 6sense rollout</div>
+</div>
+</div>
+<div class="navblock region"><span class="tag">Anchor nav (highlights the open section)</span>
+<div class="navtitle">Jump to</div>
+<nav class="anchornav" aria-label="Section navigation">
+<div class="grp">Revenue Engine</div>
+<a href="#sales-ops" data-spy="sales-ops">Sales Operations</a> <a href="#marketing-ops" data-spy="marketing-ops">Marketing Operations</a> <a href="#sales-dev" data-spy="sales-dev">Sales Development</a> <a href="#retention" data-spy="retention">Revenue Retention</a>
+<div class="grp">Cross-cutting</div>
+<a href="#ai-automation" data-spy="ai-automation">AI and Automation</a>
+<div class="grp">Code</div>
+<a href="#systems" data-spy="systems">Systems Labs</a>
+<div class="sub-links"><a href="#sys-process" data-spy="sys-process">Process Flows</a> <a href="#sys-custom" data-spy="sys-custom">Custom Applications</a> <a href="#sys-research" data-spy="sys-research">Research</a> <a href="#sys-other" data-spy="sys-other">Other</a></div>
+</nav></div>
+</aside>
+<!-- ================= MAIN ================= --><main class="main"><noscript>
+        
+<div style="margin: 12px 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--fill);">
           JavaScript is off, so audience-specific views and some controls are disabled. You are seeing the default view below. Reach Michael Green: <a href="#">Email</a>, <a href="#">LinkedIn</a>, <a href="#">GitHub</a>, <a href="#">Resume</a>. Featured project: 6sense rollout and Salesforce integration across five regions.
         </div>
+
       </noscript>
-      <div id="load-error" style="display:none; margin:12px 0; padding:12px 14px; border:1px solid var(--line); border-radius:6px; background:var(--fill);">Could not load the requested view. Showing the default. Reload the page, remove the ?audience part from the link, or open the site over http (for example on GitHub Pages).</div>
-
-      <div class="intro region">
-        <span class="tag">Intro / hero (h1)</span>
-        <h1 id="page-headline">Page headline placeholder</h1>
-        <div class="lead">
-          <div class="ph-line w90"></div>
-        </div>
-      </div>
-
-      <!-- FEATURED SHOWCASE TILE (always visible) -->
-      <div class="featured region" id="featured">
-        <span class="tag">Featured project tile (swap in any project)</span>
-        <img class="feat-media" src="assets/6sense-prospecting.png" alt="6sense rollout and Salesforce integration across five regions" loading="lazy">
-        <div class="feat-body">
-          <div class="feat-top"><span class="feat-eyebrow">Featured project</span><span class="flag">Flagship</span></div>
-          <h2 class="feat-title">6sense rollout and Salesforce integration across five regions</h2>
-          <div class="meta">US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026</div>
-          <div class="feat-desc">Led the 6sense rollout with Salesforce integration and SSO across five sales regions during a post-acquisition integration. Reached 175 qualified accounts in core and 225 in non-core markets by Q4 2025.</div>
-          <div class="tags"><span class="tag-chip">6sense</span><span class="tag-chip">Salesforce</span><span class="tag-chip">SSO</span></div>
-          <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
-        </div>
-      </div>
-
-      <!-- REVENUE ENGINE: category label -->
-      <div class="group-head region">
-        <span class="tag">Revenue Engine (category label)</span>
-        <div class="group-label">The Revenue Engine</div>
-        <div class="group-sub">Four pillars, each its own section below. A project lives under one home pillar and notes the second pillar it supports.</div>
-      </div>
-
-      <!-- PILLAR 1: SALES OPERATIONS -->
-      <section id="sales-ops" class="region">
-        <span class="tag">Pillar section (accordion)</span>
-        <details class="sec">
-          <summary class="sec-summary">
-            <span class="chev"></span>
-            <span class="sum-text"><span class="eyebrow">Pillar 01</span><span class="sec-title">Sales Operations</span></span>
-          </summary>
-          <div class="sec-body">
-            <div class="pillar-desc">CRM integration, territory design, forecasting, dashboards.</div>
-            <div class="grid-flex" data-grid="sales-ops">
-                <article class="card">
-                  <img class="card-media" src="assets/6sense-prospecting.png" alt="6sense rollout and Salesforce integration across five regions" loading="lazy">
-                  <div class="card-top"><div class="card-eyebrow">Case study</div><span class="flag">Flagship</span></div>
-                  <h3>6sense rollout and Salesforce integration across five regions</h3>
-                  <div class="meta">US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026</div>
-                  <div class="desc">Led the 6sense rollout with Salesforce integration and SSO across five sales regions during a post-acquisition integration. Reached 175 qualified accounts in core and 225 in non-core markets by Q4 2025.</div>
-                  <div class="tags"><span class="tag-chip">6sense</span><span class="tag-chip">Salesforce</span><span class="tag-chip">SSO</span></div>
-                  <div class="supports">Also supports: Marketing Operations, Sales Development</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
-                </article>
-                <article class="card">
-                  <img class="card-media" src="assets/retention-dashboard.png" alt="Revenue Retention Dashboard" loading="lazy">
-                  <div class="card-top"><div class="card-eyebrow">Dashboard</div><span class="flag">Pillar Project</span></div>
-                  <h3>Revenue Retention Dashboard</h3>
-                  <div class="meta">US Signal | Revenue Operations | Setptmber 2024 through February 2026</div>
-                  <div class="desc">Dashboard designed to show when revenue is coming out of term, so we can plan customer engagement and retention activities to keep revenue in term. This also allowed a chance to upsell additional services or migrate customer to new services..</div>
-                  <div class="tags"><span class="tag-chip">Dashboard</span><span class="tag-chip">Revenue Retention</span></div>
-                  <div class="supports">Also supports: Marketing Operations</div>
-                  <div class="proves">Proves: capability</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
-                </article>
-              </div>
-          </div>
-        </details>
-      </section>
-
-      <!-- PILLAR 2: MARKETING OPERATIONS -->
-      <section id="marketing-ops" class="region">
-        <span class="tag">Pillar section (accordion)</span>
-        <details class="sec">
-          <summary class="sec-summary">
-            <span class="chev"></span>
-            <span class="sum-text"><span class="eyebrow">Pillar 02</span><span class="sec-title">Marketing Operations</span></span>
-          </summary>
-          <div class="sec-body">
-            <div class="pillar-desc">Attribution, closed-loop reporting, CRM data layer, data governance.</div>
-            <div class="grid-flex" data-grid="marketing-ops">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">Case study</div></div>
-                  <h3>Golden Thread full-funnel attribution framework</h3>
-                  <div class="meta">OneNeck IT Solutions | Director, Revenue Operations | Sep 2022 to Sep 2024</div>
-                  <div class="desc">Attribution model linking individual selling activity to closed-won revenue, giving leadership full-funnel visibility from first touch to booking. Built on Microsoft Dynamics and HubSpot with Power BI reporting.</div>
-                  <div class="tags"><span class="tag-chip">Microsoft Dynamics</span><span class="tag-chip">HubSpot</span><span class="tag-chip">Power BI</span></div>
-                  <div class="supports">Also supports: Sales Operations (exec dashboards)</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View diagram</a></div>
-                </article>
-                <article class="card">
-                  <img class="card-media" src="assets/retention-dashboard.png" alt="Revenue Retention Dashboard" loading="lazy">
-                  <div class="card-top"><div class="card-eyebrow">Dashboard</div><span class="flag">Pillar Project</span></div>
-                  <h3>Revenue Retention Dashboard</h3>
-                  <div class="meta">US Signal | Revenue Operations | Setptmber 2024 through February 2026</div>
-                  <div class="desc">Dashboard designed to show when revenue is coming out of term, so we can plan customer engagement and retention activities to keep revenue in term. This also allowed a chance to upsell additional services or migrate customer to new services..</div>
-                  <div class="tags"><span class="tag-chip">Dashboard</span><span class="tag-chip">Revenue Retention</span></div>
-                  <div class="supports">Also supports: Marketing Operations</div>
-                  <div class="proves">Proves: capability</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
-                </article>
-              </div>
-          </div>
-        </details>
-      </section>
-
-      <!-- PILLAR 3: SALES DEVELOPMENT -->
-      <section id="sales-dev" class="region">
-        <span class="tag">Pillar section (accordion)</span>
-        <details class="sec">
-          <summary class="sec-summary">
-            <span class="chev"></span>
-            <span class="sum-text"><span class="eyebrow">Pillar 03</span><span class="sec-title">Sales Development</span></span>
-          </summary>
-          <div class="sec-body">
-            <div class="pillar-desc">BDR build, enablement, meeting generation.</div>
-            <div class="grid-flex" data-grid="sales-dev">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">Case study</div></div>
-                  <h3>BDR function build and commission design</h3>
-                  <div class="meta">OneNeck IT Solutions | Director, Marketing Operations and Business Development | Dec 2017 to Sep 2022</div>
-                  <div class="desc">Built the BDR function from scratch, cut program cost 56%, and increased qualified appointments 98% through segmentation and outreach automation. Designed the commission plan and moved payout calculation out of spreadsheets into a system built for accuracy and scale.</div>
-                  <div class="tags"><span class="tag-chip">Segmentation</span><span class="tag-chip">Outreach automation</span><span class="tag-chip">Comp design</span></div>
-                  <div class="supports">Also supports: Sales Operations (commission design)</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a></div>
-                </article>
-              </div>
-          </div>
-        </details>
-      </section>
-
-      <!-- PILLAR 4: REVENUE RETENTION -->
-      <section id="retention" class="region">
-        <span class="tag">Pillar section (accordion)</span>
-        <details class="sec">
-          <summary class="sec-summary">
-            <span class="chev"></span>
-            <span class="sum-text"><span class="eyebrow">Pillar 04</span><span class="sec-title">Revenue Retention</span></span>
-          </summary>
-          <div class="sec-body">
-            <div class="pillar-desc">NRR forecasting, renewal-risk monitoring. One case study here on purpose, per the plan.</div>
-            <div class="grid-flex" data-grid="retention">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">Case study</div></div>
-                  <h3>NRR forecasting and renewal-risk monitoring</h3>
-                  <div class="meta">US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026</div>
-                  <div class="desc">Built ARR, MRR, and net revenue retention forecasting models plus a Tableau Cloud renewal-risk dashboard that surfaced at-risk recurring revenue early and improved forecast accuracy.</div>
-                  <div class="tags"><span class="tag-chip">Tableau Cloud</span><span class="tag-chip">ARR / MRR / NRR</span></div>
-                  <div class="supports">Also supports: Sales Operations (forecasting, dashboards)</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
-                </article>
-              </div>
-          </div>
-        </details>
-      </section>
-
-      <hr class="divider">
-
-      <!-- CROSS-CUTTING: AI AND AUTOMATION -->
-      <section id="ai-automation" class="region">
-        <span class="tag">Cross-cutting section (accordion)</span>
-        <details class="sec sec-cross">
-          <summary class="sec-summary">
-            <span class="chev"></span>
-            <span class="sum-text"><span class="eyebrow">Cross-cutting <span class="cross-flag">Touches all four</span></span><span class="sec-title">AI and Automation</span></span>
-          </summary>
-          <div class="sec-body">
-            <div class="pillar-desc">Agentic AI and automation as a layer across every pillar, not a separate function. Public code artifacts live in Systems Labs below.</div>
-            <div class="grid-flex" data-grid="ai-automation">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">Case study</div></div>
-                  <h3>AI agents and automation for RevOps workflows</h3>
-                  <div class="meta">Town Lake Systems Group | Principal | Apr 2026 to present</div>
-                  <div class="desc">Building local AI agents in Python and Salesforce Agentforce to automate enrichment, reporting, and account prioritization for revenue teams, cutting manual reporting and speeding decision cycles.</div>
-                  <div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">Agentforce</span><span class="tag-chip">Ollama</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View GitHub</a></div>
-                </article>
-              </div>
-          </div>
-        </details>
-      </section>
-
-      <hr class="divider">
-
-      <!-- SYSTEMS LABS -->
-      <section id="systems" class="region">
-        <span class="tag">Systems Labs (accordion, GitHub builds)</span>
-        <details class="sec">
-          <summary class="sec-summary">
-            <span class="chev"></span>
-            <span class="sum-text"><span class="eyebrow">Code</span><span class="sec-title">Systems Architecture and Innovation Labs</span></span>
-          </summary>
-          <div class="sec-body">
-            <div class="band">
-              <div class="pillar-desc">Public, synthetic-data builds on GitHub. Grouped by your four subsection names below.</div>
-
-              <details class="sub region" id="sys-process">
-                <span class="tag">Subsection</span>
-                <summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Process Flows</span></summary>
-                <div class="sub-body">
-                  <div class="grid-flex" data-grid="sys-process">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Attribution model flow</h3>
-                  <div class="desc">First-touch-to-booking attribution logic documented as a diagram. Pairs with the Golden Thread case study.</div>
-                  <div class="tags"><span class="tag-chip">Mermaid</span><span class="tag-chip">Attribution</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Flow</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Company dedup and survivor-selection flow</h3>
-                  <div class="desc">Fuzzy-matching and survivor logic as a documented pipeline. The public version of the DartPoints work on safe synthetic data.</div>
-                  <div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">Fuzzy matching</span></div>
-                  <div class="proves">Proves: data governance.</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a><a href="#" class="btn btn-secondary">View Flow</a></div>
-                </article>
-              </div>
-                </div>
-              </details>
-
-              <details class="sub region" id="sys-custom">
-                <span class="tag">Subsection</span>
-                <summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Custom Applications</span></summary>
-                <div class="sub-body">
-                  <div class="grid-flex" data-grid="sys-custom">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">Project</div></div>
-                  <h3>This site: an audience-targeted RevOps portfolio</h3>
-                  <div class="meta">Town Lake Systems Group | Principal | 2026</div>
-                  <div class="desc">A static portfolio on GitHub Pages where each project is a JSON card, and an audience manifest plus a ?audience= URL swap the card set per viewer. Static-first, so it works with JavaScript off, with a Python generator that keeps the baseline in sync.</div>
-                  <div class="tags"><span class="tag-chip">HTML</span><span class="tag-chip">JavaScript</span><span class="tag-chip">GitHub Pages</span><span class="tag-chip">Claude Code</span></div>
-                  <div class="proves">Proves: information architecture, ABM thinking, AI-assisted build.</div>
-                  <div class="actions"><a href="assets/case-studies/revops-portfolio-site.md" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View Repo</a><a href="#" class="btn btn-secondary">Live Demo</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Commission calculator</h3>
-                  <div class="desc">Reads sample deals and a plan definition, outputs payouts. Rebuilds the BDR "out of spreadsheets" line.</div>
-                  <div class="tags"><span class="tag-chip">Python</span></div>
-                  <div class="proves">Proves: comp design.</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Pipeline forecasting tool</h3>
-                  <div class="desc">Sample opportunity data to a weighted best, likely, and worst forecast with coverage against quota.</div>
-                  <div class="tags"><span class="tag-chip">Python</span></div>
-                  <div class="proves">Proves: forecasting.</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Pipeline or forecast dashboard</h3>
-                  <div class="desc">Clean dashboard over sample data. Doubles as the sanitized screenshot for the case studies.</div>
-                  <div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">HTML</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a><a href="#" class="btn btn-secondary">Live Demo</a></div>
-                </article>
-              </div>
-                </div>
-              </details>
-
-              <details class="sub region" id="sys-research">
-                <span class="tag">Subsection</span>
-                <summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Research</span></summary>
-                <div class="sub-body">
-                  <div class="grid-flex" data-grid="sys-research">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div><span class="flag">Flagship candidate</span></div>
-                  <h3>RevOps assistant prototype (Agentforce or Ollama)</h3>
-                  <div class="desc">Local agent answering questions over a sample pipeline: which deals are stuck, which renewals are at risk next quarter.</div>
-                  <div class="tags"><span class="tag-chip">Ollama</span><span class="tag-chip">Agentforce</span><span class="tag-chip">MCP</span></div>
-                  <div class="proves">Proves: agentic AI as a layer over RevOps.</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">Read Paper</a><a href="#" class="btn btn-secondary">View Gist</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>AI enrichment agent (Salesforce or HubSpot)</h3>
-                  <div class="desc">Python agent that enriches missing account fields (industry, size, segment) via API or local model and writes back.</div>
-                  <div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">API</span></div>
-                  <div class="proves">Proves: AI and automation, CRM integration.</div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-              </div>
-                </div>
-              </details>
-
-              <details class="sub region" id="sys-other">
-                <span class="tag">Subsection</span>
-                <summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Other</span></summary>
-                <div class="sub-body">
-                  <div class="grid-flex" data-grid="sys-other">
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Domain-to-company resolver</h3>
-                  <div class="desc">Maps email domains or URLs to normalized company names.</div>
-                  <div class="tags"><span class="tag-chip">Python</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>CRM data-quality auditor</h3>
-                  <div class="desc">Scans a sample export and flags missing fields, duplicates, and bad values with a summary report.</div>
-                  <div class="tags"><span class="tag-chip">Python</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Lead or account scoring model</h3>
-                  <div class="desc">Scores sample accounts on fit and intent signals and outputs a ranked list.</div>
-                  <div class="tags"><span class="tag-chip">Python</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-                <article class="card">
-                  <div class="card-top"><div class="card-eyebrow">GitHub build</div></div>
-                  <h3>Sequence or outreach analyzer</h3>
-                  <div class="desc">Reports meeting and reply rates by segment from sample activity data.</div>
-                  <div class="tags"><span class="tag-chip">Python</span></div>
-                  <div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
-                </article>
-              </div>
-                </div>
-              </details>
-
-            </div>
-          </div>
-        </details>
-      </section>
-
-      <footer class="footer region">
-        <span class="tag">Footer</span>
-        Footer placeholder: repeat contact links, copyright, last-updated date.
-      </footer>
-
-    </main>
-  </div>
-
+<div id="load-error" style="display: none; margin: 12px 0; padding: 12px 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--fill);">Could not load the requested view. Showing the default. Reload the page, remove the ?audience part from the link, or open the site over http (for example on GitHub Pages).</div>
+<div class="intro region"><span class="tag">Intro / hero (h1)</span>
+<h1 id="page-headline">Re</h1>
+<div class="lead">
+<div class="ph-line w90"></div>
+</div>
+</div>
+<!-- FEATURED SHOWCASE TILE (always visible) -->
+<div class="featured region" id="featured"><span class="tag">Featured project tile (swap in any project)</span> <img class="feat-media" src="assets/6sense-prospecting.png" alt="6sense rollout and Salesforce integration across five regions" loading="lazy">
+<div class="feat-body">
+<div class="feat-top"><span class="feat-eyebrow">Featured project</span><span class="flag">Flagship</span></div>
+<h2 class="feat-title">6sense rollout and Salesforce integration across five regions</h2>
+<div class="meta">US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026</div>
+<div class="feat-desc">Led the 6sense rollout with Salesforce integration and SSO across five sales regions during a post-acquisition integration. Reached 175 qualified accounts in core and 225 in non-core markets by Q4 2025.</div>
+<div class="tags"><span class="tag-chip">6sense</span><span class="tag-chip">Salesforce</span><span class="tag-chip">SSO</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
+</div>
+</div>
+<!-- REVENUE ENGINE: category label -->
+<div class="group-head region"><span class="tag">Revenue Engine (category label)</span>
+<div class="group-label">The Revenue Engine</div>
+<div class="group-sub">Four pillars, each its own section below. A project lives under one home pillar and notes the second pillar it supports.</div>
+</div>
+<!-- PILLAR 1: SALES OPERATIONS -->
+<section id="sales-ops" class="region"><span class="tag">Pillar section (accordion)</span>
+<details class="sec">
+<summary class="sec-summary"><span class="chev"></span> <span class="sum-text"><span class="eyebrow">Pillar 01</span><span class="sec-title">Sales Operations</span></span></summary>
+<div class="sec-body">
+<div class="pillar-desc">CRM integration, territory design, forecasting, dashboards.</div>
+<div class="grid-flex" data-grid="sales-ops">
+<article class="card"><img class="card-media" src="assets/6sense-prospecting.png" alt="6sense rollout and Salesforce integration across five regions" loading="lazy">
+<div class="card-top">
+<div class="card-eyebrow">Case study</div>
+<span class="flag">Flagship</span></div>
+<h3>6sense rollout and Salesforce integration across five regions</h3>
+<div class="meta">US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026</div>
+<div class="desc">Led the 6sense rollout with Salesforce integration and SSO across five sales regions during a post-acquisition integration. Reached 175 qualified accounts in core and 225 in non-core markets by Q4 2025.</div>
+<div class="tags"><span class="tag-chip">6sense</span><span class="tag-chip">Salesforce</span><span class="tag-chip">SSO</span></div>
+<div class="supports">Also supports: Marketing Operations, Sales Development</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
+</article>
+<article class="card"><img class="card-media" src="assets/retention-dashboard.png" alt="Revenue Retention Dashboard" loading="lazy">
+<div class="card-top">
+<div class="card-eyebrow">Dashboard</div>
+<span class="flag">Pillar Project</span></div>
+<h3>Revenue Retention Dashboard</h3>
+<div class="meta">US Signal | Revenue Operations | Setptmber 2024 through February 2026</div>
+<div class="desc">Dashboard designed to show when revenue is coming out of term, so we can plan customer engagement and retention activities to keep revenue in term. This also allowed a chance to upsell additional services or migrate customer to new services..</div>
+<div class="tags"><span class="tag-chip">Dashboard</span><span class="tag-chip">Revenue Retention</span></div>
+<div class="supports">Also supports: Marketing Operations</div>
+<div class="proves">Proves: capability</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
+</article>
+</div>
+</div>
+</details>
+</section>
+<!-- PILLAR 2: MARKETING OPERATIONS -->
+<section id="marketing-ops" class="region"><span class="tag">Pillar section (accordion)</span>
+<details class="sec">
+<summary class="sec-summary"><span class="chev"></span> <span class="sum-text"><span class="eyebrow">Pillar 02</span><span class="sec-title">Marketing Operations</span></span></summary>
+<div class="sec-body">
+<div class="pillar-desc">Attribution, closed-loop reporting, CRM data layer, data governance.</div>
+<div class="grid-flex" data-grid="marketing-ops">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">Case study</div>
+</div>
+<h3>Golden Thread full-funnel attribution framework</h3>
+<div class="meta">OneNeck IT Solutions | Director, Revenue Operations | Sep 2022 to Sep 2024</div>
+<div class="desc">Attribution model linking individual selling activity to closed-won revenue, giving leadership full-funnel visibility from first touch to booking. Built on Microsoft Dynamics and HubSpot with Power BI reporting.</div>
+<div class="tags"><span class="tag-chip">Microsoft Dynamics</span><span class="tag-chip">HubSpot</span><span class="tag-chip">Power BI</span></div>
+<div class="supports">Also supports: Sales Operations (exec dashboards)</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View diagram</a></div>
+</article>
+<article class="card"><img class="card-media" src="assets/retention-dashboard.png" alt="Revenue Retention Dashboard" loading="lazy">
+<div class="card-top">
+<div class="card-eyebrow">Dashboard</div>
+<span class="flag">Pillar Project</span></div>
+<h3>Revenue Retention Dashboard</h3>
+<div class="meta">US Signal | Revenue Operations | Setptmber 2024 through February 2026</div>
+<div class="desc">Dashboard designed to show when revenue is coming out of term, so we can plan customer engagement and retention activities to keep revenue in term. This also allowed a chance to upsell additional services or migrate customer to new services..</div>
+<div class="tags"><span class="tag-chip">Dashboard</span><span class="tag-chip">Revenue Retention</span></div>
+<div class="supports">Also supports: Marketing Operations</div>
+<div class="proves">Proves: capability</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
+</article>
+</div>
+</div>
+</details>
+</section>
+<!-- PILLAR 3: SALES DEVELOPMENT -->
+<section id="sales-dev" class="region"><span class="tag">Pillar section (accordion)</span>
+<details class="sec">
+<summary class="sec-summary"><span class="chev"></span> <span class="sum-text"><span class="eyebrow">Pillar 03</span><span class="sec-title">Sales Development</span></span></summary>
+<div class="sec-body">
+<div class="pillar-desc">BDR build, enablement, meeting generation.</div>
+<div class="grid-flex" data-grid="sales-dev">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">Case study</div>
+</div>
+<h3>BDR function build and commission design</h3>
+<div class="meta">OneNeck IT Solutions | Director, Marketing Operations and Business Development | Dec 2017 to Sep 2022</div>
+<div class="desc">Built the BDR function from scratch, cut program cost 56%, and increased qualified appointments 98% through segmentation and outreach automation. Designed the commission plan and moved payout calculation out of spreadsheets into a system built for accuracy and scale.</div>
+<div class="tags"><span class="tag-chip">Segmentation</span><span class="tag-chip">Outreach automation</span><span class="tag-chip">Comp design</span></div>
+<div class="supports">Also supports: Sales Operations (commission design)</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a></div>
+</article>
+</div>
+</div>
+</details>
+</section>
+<!-- PILLAR 4: REVENUE RETENTION -->
+<section id="retention" class="region"><span class="tag">Pillar section (accordion)</span>
+<details class="sec">
+<summary class="sec-summary"><span class="chev"></span> <span class="sum-text"><span class="eyebrow">Pillar 04</span><span class="sec-title">Revenue Retention</span></span></summary>
+<div class="sec-body">
+<div class="pillar-desc">NRR forecasting, renewal-risk monitoring. One case study here on purpose, per the plan.</div>
+<div class="grid-flex" data-grid="retention">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">Case study</div>
+</div>
+<h3>NRR forecasting and renewal-risk monitoring</h3>
+<div class="meta">US Signal | Director, Revenue Operations | Sep 2024 to Mar 2026</div>
+<div class="desc">Built ARR, MRR, and net revenue retention forecasting models plus a Tableau Cloud renewal-risk dashboard that surfaced at-risk recurring revenue early and improved forecast accuracy.</div>
+<div class="tags"><span class="tag-chip">Tableau Cloud</span><span class="tag-chip">ARR / MRR / NRR</span></div>
+<div class="supports">Also supports: Sales Operations (forecasting, dashboards)</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View dashboard</a></div>
+</article>
+</div>
+</div>
+</details>
+</section>
+<hr class="divider"><!-- CROSS-CUTTING: AI AND AUTOMATION -->
+<section id="ai-automation" class="region"><span class="tag">Cross-cutting section (accordion)</span>
+<details class="sec sec-cross">
+<summary class="sec-summary"><span class="chev"></span> <span class="sum-text"><span class="eyebrow">Cross-cutting <span class="cross-flag">Touches all four</span></span><span class="sec-title">AI and Automation</span></span></summary>
+<div class="sec-body">
+<div class="pillar-desc">Agentic AI and automation as a layer across every pillar, not a separate function. Public code artifacts live in Systems Labs below.</div>
+<div class="grid-flex" data-grid="ai-automation">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">Case study</div>
+</div>
+<h3>AI agents and automation for RevOps workflows</h3>
+<div class="meta">Town Lake Systems Group | Principal | Apr 2026 to present</div>
+<div class="desc">Building local AI agents in Python and Salesforce Agentforce to automate enrichment, reporting, and account prioritization for revenue teams, cutting manual reporting and speeding decision cycles.</div>
+<div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">Agentforce</span><span class="tag-chip">Ollama</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View GitHub</a></div>
+</article>
+</div>
+</div>
+</details>
+</section>
+<hr class="divider"><!-- SYSTEMS LABS -->
+<section id="systems" class="region"><span class="tag">Systems Labs (accordion, GitHub builds)</span>
+<details class="sec">
+<summary class="sec-summary"><span class="chev"></span> <span class="sum-text"><span class="eyebrow">Code</span><span class="sec-title">Systems Architecture and Innovation Labs</span></span></summary>
+<div class="sec-body">
+<div class="band">
+<div class="pillar-desc">Public, synthetic-data builds on GitHub. Grouped by your four subsection names below.</div>
+<details class="sub region" id="sys-process"><span class="tag">Subsection</span>
+<summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Process Flows</span></summary>
+<div class="sub-body">
+<div class="grid-flex" data-grid="sys-process">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Attribution model flow</h3>
+<div class="desc">First-touch-to-booking attribution logic documented as a diagram. Pairs with the Golden Thread case study.</div>
+<div class="tags"><span class="tag-chip">Mermaid</span><span class="tag-chip">Attribution</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">View Flow</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Company dedup and survivor-selection flow</h3>
+<div class="desc">Fuzzy-matching and survivor logic as a documented pipeline. The public version of the DartPoints work on safe synthetic data.</div>
+<div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">Fuzzy matching</span></div>
+<div class="proves">Proves: data governance.</div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a><a href="#" class="btn btn-secondary">View Flow</a></div>
+</article>
+</div>
+</div>
+</details>
+<details class="sub region" id="sys-custom"><span class="tag">Subsection</span>
+<summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Custom Applications</span></summary>
+<div class="sub-body">
+<div class="grid-flex" data-grid="sys-custom">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">Project</div>
+</div>
+<h3>This site: an audience-targeted RevOps portfolio</h3>
+<div class="meta">Town Lake Systems Group | Principal | 2026</div>
+<div class="desc">A static portfolio on GitHub Pages where each project is a JSON card, and an audience manifest plus a ?audience= URL swap the card set per viewer. Static-first, so it works with JavaScript off, with a Python generator that keeps the baseline in sync.</div>
+<div class="tags"><span class="tag-chip">HTML</span><span class="tag-chip">JavaScript</span><span class="tag-chip">GitHub Pages</span><span class="tag-chip">Claude Code</span></div>
+<div class="proves">Proves: information architecture, ABM thinking, AI-assisted build.</div>
+<div class="actions"><a href="assets/case-studies/revops-portfolio-site.md" class="btn btn-primary">Read case study</a><a href="#" class="btn btn-secondary">View Repo</a><a href="#" class="btn btn-secondary">Live Demo</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Commission calculator</h3>
+<div class="desc">Reads sample deals and a plan definition, outputs payouts. Rebuilds the BDR "out of spreadsheets" line.</div>
+<div class="tags"><span class="tag-chip">Python</span></div>
+<div class="proves">Proves: comp design.</div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Pipeline forecasting tool</h3>
+<div class="desc">Sample opportunity data to a weighted best, likely, and worst forecast with coverage against quota.</div>
+<div class="tags"><span class="tag-chip">Python</span></div>
+<div class="proves">Proves: forecasting.</div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Pipeline or forecast dashboard</h3>
+<div class="desc">Clean dashboard over sample data. Doubles as the sanitized screenshot for the case studies.</div>
+<div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">HTML</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a><a href="#" class="btn btn-secondary">Live Demo</a></div>
+</article>
+</div>
+</div>
+</details>
+<details class="sub region" id="sys-research"><span class="tag">Subsection</span>
+<summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Research</span></summary>
+<div class="sub-body">
+<div class="grid-flex" data-grid="sys-research">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+<span class="flag">Flagship candidate</span></div>
+<h3>RevOps assistant prototype (Agentforce or Ollama)</h3>
+<div class="desc">Local agent answering questions over a sample pipeline: which deals are stuck, which renewals are at risk next quarter.</div>
+<div class="tags"><span class="tag-chip">Ollama</span><span class="tag-chip">Agentforce</span><span class="tag-chip">MCP</span></div>
+<div class="proves">Proves: agentic AI as a layer over RevOps.</div>
+<div class="actions"><a href="#" class="btn btn-primary">Read Paper</a><a href="#" class="btn btn-secondary">View Gist</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>AI enrichment agent (Salesforce or HubSpot)</h3>
+<div class="desc">Python agent that enriches missing account fields (industry, size, segment) via API or local model and writes back.</div>
+<div class="tags"><span class="tag-chip">Python</span><span class="tag-chip">API</span></div>
+<div class="proves">Proves: AI and automation, CRM integration.</div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+</div>
+</div>
+</details>
+<details class="sub region" id="sys-other"><span class="tag">Subsection</span>
+<summary class="sub-summary"><span class="chev chev-sm"></span><span class="sub-title">Other</span></summary>
+<div class="sub-body">
+<div class="grid-flex" data-grid="sys-other">
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Domain-to-company resolver</h3>
+<div class="desc">Maps email domains or URLs to normalized company names.</div>
+<div class="tags"><span class="tag-chip">Python</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>CRM data-quality auditor</h3>
+<div class="desc">Scans a sample export and flags missing fields, duplicates, and bad values with a summary report.</div>
+<div class="tags"><span class="tag-chip">Python</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Lead or account scoring model</h3>
+<div class="desc">Scores sample accounts on fit and intent signals and outputs a ranked list.</div>
+<div class="tags"><span class="tag-chip">Python</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+<article class="card">
+<div class="card-top">
+<div class="card-eyebrow">GitHub build</div>
+</div>
+<h3>Sequence or outreach analyzer</h3>
+<div class="desc">Reports meeting and reply rates by segment from sample activity data.</div>
+<div class="tags"><span class="tag-chip">Python</span></div>
+<div class="actions"><a href="#" class="btn btn-primary">View Repo</a></div>
+</article>
+</div>
+</div>
+</details>
+</div>
+</div>
+</details>
+</section>
+<footer class="footer region"><span class="tag">Footer</span> Footer placeholder: repeat contact links, copyright, last-updated date.</footer></main></div>
+<p>
 <script src="script.js"></script>
+</p>
 </body>
 </html>
