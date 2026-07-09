@@ -12,7 +12,6 @@ A static site: plain HTML, CSS, and JavaScript. No build step and no framework. 
 - `assets/` - images (banner, headshot), case-study PDFs, diagrams, and `favicon.svg`
 - `assets/favicon.svg` - the site icon: a letter "G" in Space Grotesk (the heading font), drawn as a vector outline on a sage tile so it renders correctly everywhere without loading a web font
 - `.nojekyll` - tells GitHub Pages not to skip any files
-- `CLAUDE.md` - instructions for Claude Code
 
 ## How the cards work
 
