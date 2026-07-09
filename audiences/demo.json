@@ -1,0 +1,8 @@
+{
+  "name": "demo",
+  "headline": "A tailored view for a specific reader",
+  "featured": "revops-portfolio-site",
+  "sections": {
+    "sys-custom": ["revops-portfolio-site"]
+  }
+}

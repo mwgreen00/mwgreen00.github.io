@@ -1,14 +1,16 @@
 {
   "id": "revops-portfolio-site",
-  "eyebrow": "Project",
-  "title": "This site: an audience-targeted RevOps portfolio",
+  "eyebrow": "Open-source template",
+  "title": "Portfolio site template: audience-targeted and static-first",
   "meta": "Town Lake Systems Group | Principal | 2026",
-  "description": "A static portfolio on GitHub Pages where each project is a JSON card, and an audience manifest plus a ?audience= URL swap the card set per viewer. Static-first, so it works with JavaScript off, with a Python generator that keeps the baseline in sync.",
+  "description": "A free, forkable portfolio template for GitHub Pages. Each project is a JSON card, and an audience manifest with a ?audience= link curates the card set per viewer. Static-first, so it works with JavaScript off, and an AI coding agent can finish or restyle it. This site runs on it.",
+  "image": "assets/revops-portfolio-site-card.png",
+  "imageAlt": "The template in wireframe mode, with dashed outlines and labels naming each region of the layout.",
   "tags": ["HTML", "JavaScript", "GitHub Pages", "Claude Code"],
-  "proves": "Proves: information architecture, ABM thinking, AI-assisted build.",
+  "proves": "Proves: information architecture, ABM thinking, AI-assisted build",
   "actions": [
-    { "label": "Read case study", "href": "assets/case-studies/revops-portfolio-site.md", "primary": true },
-    { "label": "View Repo", "href": "#" },
-    { "label": "Live Demo", "href": "#" }
+    { "label": "Read case study", "href": "assets/case-studies/revops-portfolio-site.html", "primary": true },
+    { "label": "View repo", "href": "https://github.com/mwgreen00/portfolio-site-template" },
+    { "label": "Live demo", "href": "?audience=demo" }
   ]
 }

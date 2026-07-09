@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Portfolio site template | Case study</title>
+<meta name="description" content="A free, forkable portfolio template for GitHub Pages that ships as a labeled wireframe and serves a tailored view per viewer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<style>
+:root{
+  /* Palette and type mirror the site's design tokens (see styles.css / CLAUDE.md).
+     Dark warm-green theme: deep green-black canvas, warm off-white text, sage + coral accents. */
+  --page:#1A2321; --surface:#232E2B; --ink:#ECE9E2; --ink-soft:#A6ADA6;
+  --fill:#26312E; --fill-2:#2F3B37; --band:#202A28; --line:#3A453F;
+  --accent:#6FB090; --accent-dark:#5A9576; --spark:#FF6B6B; --label:#8D958C;
+  --head:'Space Grotesk',system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --sans:'Outfit',system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --radius:12px;
+}
+*{box-sizing:border-box;}
+html{-webkit-text-size-adjust:100%;}
+body{margin:0; background:var(--page); color:var(--ink); font-family:var(--sans); font-size:17px; line-height:1.65;}
+.wrap{max-width:720px; margin:0 auto; padding:32px 20px 80px;}
+a{color:var(--accent); text-underline-offset:2px;}
+a:hover{color:var(--accent-dark);}
+.back{display:inline-block; font-family:var(--mono); font-size:12px; letter-spacing:.06em; text-transform:uppercase; color:var(--label); text-decoration:none; margin-bottom:28px;}
+.back:hover{color:var(--ink);}
+.eyebrow{font-family:var(--mono); font-size:12px; letter-spacing:.12em; text-transform:uppercase; color:var(--label); margin:0 0 10px;}
+h1{font-family:var(--head); font-size:34px; line-height:1.15; font-weight:700; margin:0 0 14px; letter-spacing:-.01em;}
+.lead{font-size:20px; line-height:1.5; color:var(--ink-soft); margin:0 0 8px;}
+.rule{height:2px; width:56px; background:var(--accent); border:0; margin:24px 0 8px;}
+h2{font-family:var(--head); font-size:22px; line-height:1.25; font-weight:700; margin:44px 0 12px; padding-top:22px; border-top:1px solid var(--line);}
+h3{font-family:var(--head); font-size:17px; font-weight:700; margin:22px 0 6px;}
+p{margin:0 0 16px;}
+ul{margin:0 0 16px; padding-left:22px;}
+li{margin:0 0 8px;}
+strong{font-weight:700;}
+code{font-family:var(--mono); font-size:.9em; background:var(--fill); border:1px solid var(--line); border-radius:6px; padding:1px 6px;}
+figure{margin:26px 0;}
+figcaption{font-size:14px; color:var(--ink-soft); margin-top:8px;}
+.shot{display:flex; align-items:center; justify-content:center; text-align:center; background:var(--fill); border:1px dashed var(--line); border-radius:var(--radius); color:var(--label); font-family:var(--mono); font-size:13px; padding:16px; min-height:230px;}
+.diagram{width:100%; height:auto; background:var(--band); border:1px solid var(--line); border-radius:var(--radius); padding:16px;}
+.screenshot{display:block; width:100%; height:auto; background:var(--band); border:1px solid var(--line); border-radius:var(--radius);}
+.note{background:var(--band); border-left:3px solid var(--accent); border-radius:0 var(--radius) var(--radius) 0; padding:14px 16px; margin:24px 0; font-size:15px; color:var(--ink-soft);}
+.actions{display:flex; flex-wrap:wrap; gap:10px; margin:26px 0 0;}
+.btn{display:inline-block; font-size:15px; text-decoration:none; padding:9px 16px; border-radius:var(--radius); border:1px solid var(--line); color:var(--ink); background:var(--surface);}
+.btn:hover{background:var(--fill);}
+.btn-primary{background:var(--accent); color:var(--page); border-color:var(--accent);}
+.btn-primary:hover{background:var(--accent-dark); color:var(--page);}
+.foot{margin-top:56px; padding-top:20px; border-top:1px solid var(--line); font-size:13px; color:var(--label);}
+:focus-visible{outline:2px solid var(--accent); outline-offset:2px;}
+@media (max-width:600px){h1{font-size:28px;} .lead{font-size:18px;} body{font-size:16px;}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a class="back" href="../../index.html">Back to portfolio</a>
+
+  <p class="eyebrow">Case study</p>
+  <h1>Portfolio site template</h1>
+  <p class="lead">A free, forkable portfolio site that ships as a labeled wireframe, serves a tailored view per viewer, and hosts at no cost on GitHub Pages. This site runs on it.</p>
+  <hr class="rule">
+
+  <h2>The problem</h2>
+  <p>Most people have a resume and a LinkedIn profile but no single place to show the actual artifacts of their work: dashboards, process documentation, code, and case studies. The tools that promise to fix this tend to be heavy (a framework and a build step), paywalled, or too rigid to tailor for a specific reader. A blank template does not help either, because you cannot see the structure until you have already filled it in.</p>
+
+  <h2>Goals and constraints</h2>
+  <p>The template had a short, firm brief:</p>
+  <ul>
+    <li>Free to host, with no server and no paid plan.</li>
+    <li>No framework and no build step, so it stays easy to fork and edit.</li>
+    <li>Teaches its own layout, so someone with no front-end background can finish it.</li>
+    <li>Serves a tailored view per reader without cloning the site.</li>
+    <li>Works with JavaScript turned off.</li>
+    <li>Friendly to an AI coding agent for filling in content and restyling.</li>
+  </ul>
+
+  <h2>How it works</h2>
+  <p>Content lives in data. Each project is a small JSON file (a card). A manifest (an audience) lists which cards appear in each section and in what order, and can override the headline. The default homepage is written into the HTML as real markup, and a small Python script rebuilds that baked homepage from the JSON so the two never drift. A link such as <code>yoursite.com/?audience=acme</code> swaps the card set in the browser for a specific reader, while the default page keeps working for everyone else.</p>
+
+  <figure>
+    <svg class="diagram" viewBox="0 0 636 200" role="img" aria-label="Content model. Card files and audience files feed a generator that bakes the homepage. In the browser, a question-mark audience link makes script.js swap the card set.">
+      <defs>
+        <marker id="ah" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+          <path d="M0,0 L8,4 L0,8 z" fill="var(--ink-soft)"/>
+        </marker>
+      </defs>
+      <text x="8" y="14" font-family="var(--mono)" font-size="11" fill="var(--label)">Build step</text>
+      <g font-family="var(--mono)" font-size="13" fill="var(--ink)">
+        <rect x="8" y="24" width="120" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="68" y="50" text-anchor="middle">cards</text>
+        <rect x="168" y="24" width="120" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="228" y="50" text-anchor="middle">audiences</text>
+        <rect x="328" y="24" width="120" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="388" y="50" text-anchor="middle">generator</text>
+        <rect x="488" y="24" width="140" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="558" y="50" text-anchor="middle">index.html</text>
+      </g>
+      <g stroke="var(--ink-soft)" stroke-width="1.5" marker-end="url(#ah)">
+        <line x1="128" y1="46" x2="164" y2="46"/>
+        <line x1="288" y1="46" x2="324" y2="46"/>
+        <line x1="448" y1="46" x2="484" y2="46"/>
+      </g>
+      <text x="8" y="118" font-family="var(--mono)" font-size="11" fill="var(--label)">In the browser</text>
+      <g font-family="var(--mono)" font-size="13" fill="var(--ink)">
+        <rect x="8" y="132" width="150" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="83" y="158" text-anchor="middle">?audience=</text>
+        <rect x="198" y="132" width="120" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="258" y="158" text-anchor="middle">script.js</text>
+        <rect x="358" y="132" width="150" height="44" rx="8" fill="var(--surface)" stroke="var(--line)"/>
+        <text x="433" y="158" text-anchor="middle">swaps cards</text>
+      </g>
+      <g stroke="var(--ink-soft)" stroke-width="1.5" marker-end="url(#ah)">
+        <line x1="158" y1="154" x2="194" y2="154"/>
+        <line x1="318" y1="154" x2="354" y2="154"/>
+      </g>
+    </svg>
+    <figcaption>The content model. Card and audience files are the source. The generator bakes the default homepage so it works with JavaScript off. A <code>?audience=</code> link makes the same page reflow in the browser.</figcaption>
+  </figure>
+
+  <h2>Key decisions and tradeoffs</h2>
+  <p><strong>Ship as a wireframe.</strong> The template opens in an annotated mode where every region names itself with a dashed outline and a label. That trades a polished first impression for something more useful to a new user: you can see the structure before you have any content, then switch the wireframe off with one CSS class.</p>
+
+  <figure>
+    <img class="screenshot" src="img/revops-portfolio-site-wireframe.png" alt="The template in wireframe mode: dashed outlines and small monospace labels name each region of the layout." loading="lazy" width="1360" height="1277">
+    <figcaption>Wireframe mode. Dashed outlines and small labels name each region so the layout explains itself.</figcaption>
+  </figure>
+
+  <p><strong>Data, not pages.</strong> Cards and audiences keep projects reusable and let one site present many curated views. The cost is a small content model to learn instead of editing a single HTML file.</p>
+  <p><strong>Baked homepage plus a generator.</strong> Writing the default view into the HTML means the page shows content with JavaScript off and indexes well for search. The cost is a rebuild step: change the default, run the generator.</p>
+  <p><strong>Design tokens for everything.</strong> Colors, fonts, radii, and motion are CSS variables in one place, so a full retheme is a handful of edits and nothing is hardcoded in a component.</p>
+  <div class="note">A tradeoff accepted on purpose: cards in a non-default audience are added by JavaScript, so they index less well than the baked homepage. For a link you paste into applications and messages, that is the right trade. If strong indexing of every view mattered more, a build step would stitch the cards into static HTML at deploy time.</div>
+
+  <h2>See it in production</h2>
+  <p>This site is the live example. The default view is the homepage. Add <code>?audience=demo</code> to the URL to see the same site reflow for a different reader, with a different featured project and a curated card set.</p>
+
+  <figure>
+    <img class="screenshot" src="img/revops-portfolio-site-live.png" alt="The live homepage running this portfolio: dark theme, sidebar with photo and metrics, and the 6sense rollout as the featured project." loading="lazy" width="1247" height="1281">
+    <figcaption>The template in production, running this portfolio.</figcaption>
+  </figure>
+
+  <h2>Use it</h2>
+  <p>The template is MIT licensed, so you can fork it and make it your own. Start with the README for setup, then read the adopter guide for how to choose credible proof for each project and how to anonymize client work you cannot name.</p>
+
+  <div class="actions">
+    <a class="btn btn-primary" href="https://github.com/mwgreen00/portfolio-site-template">View the repo</a>
+    <a class="btn" href="https://github.com/mwgreen00/portfolio-site-template#readme">Read the README</a>
+    <a class="btn" href="https://github.com/mwgreen00/portfolio-site-template/blob/main/adopter-guide.html">Adopter guide</a>
+  </div>
+
+  <p class="foot">Case study. Numbers on this page match the resume and other profiles. Sample data only in every screenshot.</p>
+</main>
+</body>
+</html>
